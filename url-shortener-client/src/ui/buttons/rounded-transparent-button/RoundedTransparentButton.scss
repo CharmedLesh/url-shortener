@@ -1,0 +1,24 @@
+@import '../../../assets/Styles.scss';
+
+.rounded-transparent-button-wrapper {
+    background-color: transparent;
+    border: 2px solid $light-color;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 0;
+    transition: 300ms ease-out;
+
+    .button-content {
+        display: flex;
+        padding: 8px;
+    }
+
+    &:hover {
+        transform: translate3d(0px, -3px, 0px);
+    }
+
+    &:active {
+        transform: translate3d(0px, -1px, 0px);
+    }
+}

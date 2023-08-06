@@ -1,0 +1,10 @@
+@import '../../../../assets/Styles.scss';
+
+.footer-top-container {
+    height: 75%;
+    background-color: $dark-color;
+    opacity: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
